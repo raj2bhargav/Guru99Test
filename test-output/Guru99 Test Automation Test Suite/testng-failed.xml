@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Guru99 Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Guru99 Test Case(failed)">
+    <classes>
+      <class name="com.guru99.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.guru99.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Guru99 Test Case(failed) -->
+</suite> <!-- Failed suite [Guru99 Test Automation Test Suite] -->
